@@ -406,10 +406,10 @@ highlights.push({
     endOffset: highlight.endOffset,
     parentXPath: getXPath(range.commonAncestorContainer),
     textarea : 0,
-    textareaText : "Ram Ram ji",
+    textareaText : "Hello Aiman...",
     innerText : range.toString(),
     id: new Date().toString(),
-    Date: "Sat Jun 1 2024"
+    Date: "Sat Jun 10 2024"
 });
 localStorage.setItem('highlights', JSON.stringify(highlights));
 }
